@@ -1,0 +1,260 @@
+header.navigation{
+    padding: 20px 0 30px 0;
+}
+
+header.navigation .social-navbar li{
+    float: left;
+    margin: 5px 12px;
+    font-size: 16px;
+}
+
+header.navigation .social-navbar li a{
+    padding: 0 !important;
+    font-size: 16px !important;
+}
+
+header.navigation .social-navbar li a i{
+    font-size: 22px
+}
+
+header.navigation .social-navbar img{
+    height: 16px;
+}
+
+.logo-text{
+    font-size: 10.3px;
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #002566
+}
+
+.navigation .navbar-brand{
+    padding: 0;
+    height: 110px;
+}
+
+.navbar-brand img {
+    height: 100px;
+    width: auto;
+}
+
+.menu-nav{
+    padding-right: 0;
+    margin-top: 20px;
+    float: right;
+}
+
+.menu-nav .open .dropdown-menu li {
+    font-size: 16px;
+}
+
+@media(max-width:767px){
+    .menu-nav{
+        float: left;
+    }
+}
+
+header.navigation .menu-nav .navbar-nav>li>a {
+    font-size: 16px;
+}
+
+.about .text-row{
+    padding: 20px 20px 80px 20px;
+}
+
+.about .text-row .block h2{
+    padding-top: 10px;
+    margin: 0;
+    text-align: left;
+}
+
+.about .about-content #merhabalar {
+    margin-bottom: 30px;
+}
+
+.text-row p {
+    font-family: 'Roboto', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.section-title h2 {
+    font-family: 'Varela Round', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #11384d;
+    text-align: center;
+}
+
+.slider .hero-title {
+    padding: 10px;
+    background: rgba(43, 93, 115, .7);
+    color: #ffffff;
+    font-weight: 300 !important;
+}
+
+
+.bg-3{
+    background: rgba(43, 93, 115, .7);
+    color: #ffffff;
+    font-weight: 300 !important;
+}
+
+.slider .hero-desc {
+    font-family: 'Amatic SC', cursive, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    padding: 10px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 36px !important;
+    color: #ffffff !important;
+    text-align: center;
+}
+
+.bg-2{
+    background-position: 0 -60px;
+}
+
+.about-img-2 {
+    overflow:hidden;
+}
+
+.services-grid {
+    padding: 0 !important;
+}
+
+.services-grid .service-item .block{
+    border: 1px solid #CCCCCC;
+}
+
+.services-grid .service-item .service-image{
+    display: block;
+}
+
+.service-item .link-header{
+    display: block;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.service-link-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    color: #ffffff;
+    width: 100%;
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 32px;
+    background: rgba(43, 93, 115, .7);
+}
+
+.service-item .desc{
+    padding: 10px;
+    text-align: left;
+}
+
+body p {
+    font-family: Verdana, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 1.2px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.dropdown-menu{
+    min-width: 205px;
+}
+
+.site-content img{
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.multilingual-container{
+    display: block;
+    overflow: hidden;
+}
+
+
+.image-block{
+    text-align: center;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.image-block .border-box{
+    height: 120px;
+    border: 1px solid #dee2e6;
+    -webkit-border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    border-radius: .25rem;
+    margin: 0 5px;
+}
+
+.image-block img{
+    vertical-align: middle;
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+}
+
+.overly:before, .slider:before, .page-title:before{
+    opacity: 0 !important;
+}
+
+
+.btn-main.btn-main-2 {
+    background: #d1f6f5;
+    color: #333333;
+    font-size: 18px;
+}
+
+.btn-main.btn-main-2:hover {
+    background: #3d4747;
+    color: #d1f6f5;
+}
+
+.border-radius-5 {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.border-radius-10 {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.contact-form-section {
+    padding: 40px !important;
+}
+
+.contact-form-section .google-map .map{
+    margin-top: 70px;
+    height: 430px;
+}
+
+.contact-form-section .contact-form .btn-default{
+    background: #055ba3;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.contact-form-section .btn-default[disabled]:hover{
+    background-color: #818181;
+    border-color: #fff;
+}
+
+.contact-form-section input.form-control,
+.contact-form-section textarea.form-control{
+    background: #ffffff !important;
+    border: 1px solid #0c60a7 !important;
+    font-size: 18px;
+}
