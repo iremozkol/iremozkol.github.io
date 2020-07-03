@@ -45,6 +45,11 @@ header.navigation .social-navbar img{
     float: right;
 }
 
+.menu-nav  li  a {
+    font-family: 'Play', sans-serif;
+    letter-spacing: 1px;
+}
+
 .menu-nav .open .dropdown-menu li {
     font-size: 16px;
 }
@@ -271,8 +276,8 @@ body p {
 }
 
 .contact-form-section .google-map .map{
-    margin-top: 70px;
-    height: 430px;
+    margin-top: 10px;
+    height: 300px;
 }
 
 .contact-form-section .contact-form .btn-default{
