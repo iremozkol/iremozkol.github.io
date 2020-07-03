@@ -3,21 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://iocoaching.co.uk/en/blog/korku-mu-kaygi-mi/</loc>
-    <lastmod>2020-06-30T11:07:10+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="http://iocoaching.co.uk/blog/korku-mu-kaygi-mi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://iocoaching.co.uk/en/blog/korku-mu-kaygi-mi/"
-                />
-  </url>
-  
-  <url>
     <loc>http://iocoaching.co.uk/en/blog/</loc>
     <lastmod>2020-06-30T11:07:10+06:00</lastmod>
     <xhtml:link
@@ -29,6 +14,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://iocoaching.co.uk/en/blog/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://iocoaching.co.uk/en/blog/korku-mu-kaygi-mi/</loc>
+    <lastmod>2020-06-30T11:07:10+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://iocoaching.co.uk/blog/korku-mu-kaygi-mi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://iocoaching.co.uk/en/blog/korku-mu-kaygi-mi/"
                 />
   </url>
   
@@ -164,6 +164,20 @@
   </url>
   
   <url>
+    <loc>http://iocoaching.co.uk/en/fees/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://iocoaching.co.uk/fees/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://iocoaching.co.uk/en/fees/"
+                />
+  </url>
+  
+  <url>
     <loc>http://iocoaching.co.uk/en/individual-counselling/</loc>
     <xhtml:link
                 rel="alternate"
@@ -202,20 +216,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://iocoaching.co.uk/en/author/mark-dinn/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://iocoaching.co.uk/en/pricing/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="http://iocoaching.co.uk/pricing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://iocoaching.co.uk/en/pricing/"
                 />
   </url>
   

@@ -73,7 +73,7 @@ header.navigation .menu-nav .navbar-nav>li>a {
     margin-bottom: 30px;
 }
 
-.text-row p {
+.text-row *:not(h1, h2, h3, h4, h5) {
     font-family: 'Roboto', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
     font-size: 22px;
     font-weight: 300;
@@ -113,7 +113,7 @@ header.navigation .menu-nav .navbar-nav>li>a {
 }
 
 .bg-2{
-    background-position: 0 -60px;
+    background-position: center 0;
 }
 
 .about-img-2 {
@@ -208,16 +208,50 @@ body p {
     opacity: 0 !important;
 }
 
+.page-title{
+    background-repeat: no-repeat;
+}
 
-.btn-main.btn-main-2 {
+.page-title.bg-2{
+    padding: 160px;
+}
+
+
+.page-title .block h1{
+    font-weight: 400 !important;
+    margin: 0 !important;
+}
+
+.page-title.bg-2 .block{
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 400 !important;
+    background: rgba(39, 127, 165, 0.75);
+    width: 100%;
+}
+
+.btn.btn-main-2 {
     background: #d1f6f5;
     color: #333333;
     font-size: 18px;
 }
 
-.btn-main.btn-main-2:hover {
+.btn.btn-main-2:hover {
     background: #3d4747;
     color: #d1f6f5;
+}
+
+.btn.btn-main-3 {
+    background: #42bfbb;
+    color: #fdfdfd;
+    font-size: 18px;
+}
+
+.btn.btn-main-3:hover {
+    background: #026f9c;
+    color: #fdfdfd;
 }
 
 .border-radius-5 {

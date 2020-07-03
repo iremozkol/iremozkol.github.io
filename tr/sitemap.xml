@@ -123,20 +123,6 @@
   </url>
   
   <url>
-    <loc>http://iocoaching.co.uk/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://iocoaching.co.uk/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="http://iocoaching.co.uk/about/"
-                />
-  </url>
-  
-  <url>
     <loc>http://iocoaching.co.uk/author/</loc>
     <xhtml:link
                 rel="alternate"
@@ -179,6 +165,20 @@
   </url>
   
   <url>
+    <loc>http://iocoaching.co.uk/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://iocoaching.co.uk/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://iocoaching.co.uk/about/"
+                />
+  </url>
+  
+  <url>
     <loc>http://iocoaching.co.uk/author/john-doe/</loc>
     <xhtml:link
                 rel="alternate"
@@ -203,20 +203,6 @@
                 rel="alternate"
                 hreflang="tr"
                 href="http://iocoaching.co.uk/author/mark-dinn/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://iocoaching.co.uk/pricing/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://iocoaching.co.uk/en/pricing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="http://iocoaching.co.uk/pricing/"
                 />
   </url>
   
@@ -343,6 +329,20 @@
                 rel="alternate"
                 hreflang="tr"
                 href="http://iocoaching.co.uk/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://iocoaching.co.uk/fees/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://iocoaching.co.uk/en/fees/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="http://iocoaching.co.uk/fees/"
                 />
   </url>
   
