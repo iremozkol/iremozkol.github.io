@@ -62,7 +62,7 @@
     }
 
     disableAllButtons(form);
-    var url = form.action;
+    var url = "https://script.google.com/macros/s/AKfycbx8QClid2t3ZtOQBJR3eJSNy09RqpTNg2iiKQjDb5sNknh-COkX/exec"
     var xhr = new XMLHttpRequest();
     xhr.open('POST', url);
     // xhr.withCredentials = true;
@@ -80,11 +80,16 @@
           }
         }
     };
-    // url encode form data for sending as post data
-    var encoded = Object.keys(data).map(function(k) {
-        return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
-    }).join('&');
-    xhr.send(encoded);
+
+    grecaptcha.ready(function() {
+      grecaptcha.execute('6LeZYhkkAAAAALswXDzofD2_JS304lvuOiLEsc1Z', {action: 'submit'}).then(function(token) {
+        // url encode form data for sending as post data
+        var encoded = Object.keys(data).map(function(k) {
+          return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
+        }).join('&');
+        xhr.send(encoded);
+      });
+    });
   }
 
   function loaded() {
