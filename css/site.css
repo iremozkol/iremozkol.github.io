@@ -74,14 +74,26 @@ header.navigation .menu-nav .navbar-nav>li>a {
     text-align: left;
 }
 
+
+
+@media(min-width:1024px){
+.about .img-responsive {
+    margin-top: 100px;
+}
+}
+
 .about .about-content #merhabalar {
     margin-bottom: 30px;
 }
 
-.text-row *:not(h1, h2, h3, h4, h5) {
+.text-row *:not(h1, h2, h3, h4, h5, strong) {
     font-family: 'Roboto', "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
     font-size: 22px;
     font-weight: 300;
+}
+
+.section strong {
+    font-weight: 400;
 }
 
 .section-title h2 {
@@ -174,6 +186,10 @@ body p {
 
 .dropdown-menu{
     min-width: 205px;
+}
+
+.site-content h2{
+    margin: 30px auto;
 }
 
 .site-content img{
@@ -296,4 +312,8 @@ body p {
     background: #ffffff !important;
     border: 1px solid #0c60a7 !important;
     font-size: 18px;
+}
+
+.study{
+    margin: 20px auto;
 }
